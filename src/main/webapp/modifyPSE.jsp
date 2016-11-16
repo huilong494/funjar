@@ -4,9 +4,9 @@
 <%@ page import="java.io.*"%>
 <%@  page import="java.util.*"%>
 <%@  page import="java.util.Date"%>
-<%@ page import="iisi.Bean.*"%>
+<%@ page import="org.iisi.Bean.*"%>
 <%@ page import="java.util.*,java.text.*" %>
-<%@  page import="iisi.Db.*"%>
+<%@  page import="org.iisi.Db.*"%>
 
 <!DOCTYPE html>
 <html lang="en">

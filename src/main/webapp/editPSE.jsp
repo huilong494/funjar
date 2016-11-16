@@ -174,8 +174,8 @@
 	pageEncoding="BIG5"%>
 <%@ page import="java.sql.*"%>
 <%@ page import="java.util.List,java.util.ArrayList"%>
-<%@ page import="Db.SearchHour"%>
-<%@ page import="Bean.edit"%>
+<%@ page import="org.Db.SearchHour"%>
+<%@ page import="org.Bean.edit"%>
 
 <!DOCTYPE html>
 <html lang="en">

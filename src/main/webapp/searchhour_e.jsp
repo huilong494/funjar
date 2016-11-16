@@ -2,9 +2,9 @@
 	pageEncoding="BIG5"%>
 <%@ page import="java.sql.*"%>
 <%@ page import="java.util.List,java.util.ArrayList"%>
-<%@ page import="iisi.Bean.SearchHour_e"%>
-<%@ page import="iisi.Bean.SearchHour_m"%>
-<%@ page import="iisi.Bean.Hours"%>
+<%@ page import="org.iisi.Bean.SearchHour_e"%>
+<%@ page import="org.iisi.Bean.SearchHour_m"%>
+<%@ page import="org.iisi.Bean.Hours"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>

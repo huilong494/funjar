@@ -4,9 +4,9 @@
 <%@ page import="java.io.*"%>
 <%@  page import="java.util.*"%>
 <%@  page import="java.util.Date"%>
-<%@  page import="iisi.Db.JDBCPSEsearch"%>
-<%@  page import="iisi.Bean.Hours"%>
-<%@  page import="iisi.Bean.SearchPSE"%>
+<%@  page import="org.iisi.Db.JDBCPSEsearch"%>
+<%@  page import="org.iisi.Bean.Hours"%>
+<%@  page import="org.iisi.Bean.SearchPSE"%>
 
 
 <%@  page import="java.text.SimpleDateFormat"%>

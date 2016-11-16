@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ page import="iisi.Db.*"%>
-<%@  page import="iisi.Bean.RemainHour"%>
+<%@ page import="org.iisi.Db.*"%>
+<%@  page import="org.iisi.Bean.RemainHour"%>
 <%@  page import="java.util.*"%>
 
 <!DOCTYPE html>
