@@ -1,7 +1,6 @@
-package Servlet;
+package iisi.Servlet;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.List;
 
 import javax.servlet.RequestDispatcher;
@@ -9,15 +8,10 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
-import Bean.Apply;
-import Bean.Hours;
-import Bean.SearchHour_e;
-import Db.JDBCCheckApply;
-import Db.JDBCLogin;
-import Db.JDBCPSEsearch;
-import Db.JDBCSearchHour;
+import iisi.Bean.Apply;
+import iisi.Db.JDBCCheckApply;
+import iisi.Db.JDBCLogin;
 
 /**
  * Servlet implementation class checkApplyServlet

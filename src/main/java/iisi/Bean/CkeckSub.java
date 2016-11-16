@@ -1,6 +1,4 @@
-package Bean;
-
-import java.sql.Date;
+package iisi.Bean;
 
 public class CkeckSub {
 private int pcid;

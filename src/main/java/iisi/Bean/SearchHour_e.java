@@ -1,5 +1,4 @@
-package Bean;
-
+package iisi.Bean;
 public class SearchHour_e {
 
 	private String Eid;

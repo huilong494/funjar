@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@  page import="Db.*"%>
-<%@  page import="Bean.*"%>
+<%@  page import="iisi.Db.*"%>
+<%@  page import="iisi.Bean.*"%>
 <%@  page import="java.util.*"%>
 
 

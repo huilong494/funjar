@@ -1,4 +1,4 @@
-package Servlet;
+package iisi.Servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import Db.JDBCAddPSE;
+import iisi.Db.JDBCAddPSE;
 
 
 

@@ -1,9 +1,12 @@
-package Db;
+package iisi.Db;;
 
-import java.sql.*;
-import java.util.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
 
-import Bean.edit;
+import iisi.Bean.edit;
 
 public class editJDBC extends JDBCCore {
 	public List<edit> edit(String eid) throws Exception {

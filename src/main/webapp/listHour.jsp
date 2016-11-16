@@ -1,20 +1,20 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="java.sql.*"%> 
-<%@ page import="Db.conSetHor"%> 
+<%@ page import="iisi.Db.conSetHor"%> 
 
 <%
 
-Class.forName("oracle.jdbc.driver.OracleDriver").newInstance(); 
+Class.forName("com.mysql.jdbc.Driver").newInstance(); 
 
 
-String url="jdbc:oracle:thin:@localhost:1521:xe"; 
+String url="jdbc:mysql://localhost/scott?useSSL=false"; 
 
 //orcl為你的資料庫的SID 
 int i= 0;
-String user="PSE"; 
+String user="root"; 
 
-String password="PSE"; 
+String password="iisi"; 
 
 Connection conn= DriverManager.getConnection(url,user,password); 
 

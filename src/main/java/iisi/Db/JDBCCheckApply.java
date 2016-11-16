@@ -1,7 +1,6 @@
-package Db;
+package iisi.Db;
 
 import java.sql.Connection;
-import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
@@ -17,8 +16,7 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
-import Bean.Apply;
-import Bean.CheckPSE;
+import iisi.Bean.Apply;
 
 public class JDBCCheckApply extends JDBCCore {
 

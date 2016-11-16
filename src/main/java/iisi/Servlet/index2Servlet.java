@@ -1,4 +1,4 @@
-package Servlet;
+package iisi.Servlet;
 
 import java.io.IOException;
 import java.util.List;
@@ -10,8 +10,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import Bean.RemainHour;
-import Db.JDBCIndex2;
+import iisi.Bean.RemainHour;
+import iisi.Db.JDBCIndex2;
 
 /**
  * Servlet implementation class index2Servlet

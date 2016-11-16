@@ -1,4 +1,4 @@
-package Bean;
+package iisi.Bean;
 
 public class edit {
 	private String Pid;

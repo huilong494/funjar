@@ -1,5 +1,4 @@
-package Bean;
-
+package iisi.Bean;
 public class RemainHour {
 	private float remainHour;
 	private String kname;

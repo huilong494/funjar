@@ -1,10 +1,8 @@
-package Db;
+package iisi.Db;
 
-import Bean.SearchHour_m;
-
-import com.oracle.*;
-import java.sql.*;
-import java.util.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 
 public class JDBCApplyChange extends JDBCCore {
 

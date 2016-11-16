@@ -1,11 +1,11 @@
-package Db;
+package iisi.Db;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
 
-import Bean.SearchHour;
-import Bean.UseLeft;
-
-
-import java.sql.*;
-import java.util.*;
+import iisi.Bean.UseLeft;
 
 public class JDBCSetHour extends JDBCCore {
 

@@ -1,15 +1,14 @@
-package Servlet;
-
+package iisi.Servlet;
 import java.io.IOException;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import Db.JDBCChangePwd;
-import Db.JDBCForgetPwd;
-import Db.JDBCLogin;
+import iisi.Db.JDBCForgetPwd;
+import iisi.Db.JDBCLogin;
 
 /**
  * Servlet implementation class ForgetPwdServlet

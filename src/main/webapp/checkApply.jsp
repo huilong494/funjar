@@ -3,9 +3,9 @@
 
 <%@ page import="java.sql.*"%>
 <%@ page import="java.util.List,java.util.ArrayList"%>
-<%@ page import="Bean.CheckPSE"%>
-<%@ page import="Db.JDBCCheckApply"%>
-<%@ page import="Bean.Apply"%>
+<%@ page import="iisi.Bean.CheckPSE"%>
+<%@ page import="iisi.Db.JDBCCheckApply"%>
+<%@ page import="iisi.Bean.Apply"%>
 
 <!DOCTYPE html>
 <html lang="en">

@@ -1,7 +1,6 @@
-package Servlet;
+package iisi.Servlet;
 
 import java.io.IOException;
-import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -9,10 +8,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import Bean.Hours;
-import Db.JDBCChangePwd;
-import Db.JDBCCheckPSE;
-import Db.JDBCLogin;
+import iisi.Db.JDBCCheckPSE;
+import iisi.Db.JDBCLogin;
 
 /**
  * Servlet implementation class CheckpseServlet

@@ -1,5 +1,4 @@
-package Bean;
-
+package iisi.Bean;
 public class Hours {
 	private String Eid;
 

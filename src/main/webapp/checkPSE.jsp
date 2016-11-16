@@ -3,8 +3,8 @@
 
 <%@ page import="java.sql.*"%>
 <%@ page import="java.util.List,java.util.ArrayList"%>
-<%@ page import="Bean.CheckPSE"%>
-<%@ page import="Db.JDBCCheckPSE"%>
+<%@ page import="iisi.Bean.CheckPSE"%>
+<%@ page import="iisi.Db.JDBCCheckPSE"%>
 
 <!DOCTYPE html>
 <html lang="en">

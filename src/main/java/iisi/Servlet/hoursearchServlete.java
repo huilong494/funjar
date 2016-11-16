@@ -1,10 +1,5 @@
-package Servlet;
-
+package iisi.Servlet;
 import java.io.IOException;
-import java.sql.*;
-import java.util.LinkedList;
-import java.io.PrintWriter;
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.servlet.RequestDispatcher;
@@ -14,11 +9,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import Bean.Hours;
-import Bean.SearchHour_e;
-
-import Db.JDBCPSEsearch;
-import Db.JDBCSearchHour;
+import iisi.Bean.Hours;
+import iisi.Bean.SearchHour_e;
+import iisi.Db.JDBCPSEsearch;
+import iisi.Db.JDBCSearchHour;
 
 public class hoursearchServlete extends HttpServlet {
 	private static final long serialVersionUID = 1L;

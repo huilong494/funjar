@@ -1,4 +1,4 @@
-package Db;
+package iisi.Db;
 
 public interface JDBCConstants {
 //存放連線的基本資料

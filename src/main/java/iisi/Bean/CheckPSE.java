@@ -1,5 +1,4 @@
-package Bean;
-
+package iisi.Bean;
 import java.sql.Date;
 
 public class CheckPSE {

@@ -1,4 +1,4 @@
-package Servlet;
+package iisi.Servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -11,10 +11,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import Bean.view_sub;
-import Db.JDBCEditPSE;
-import Db.JDBC_edit;
-import Bean.view_sub;
+import iisi.Bean.view_sub;
+import iisi.Db.JDBCEditPSE;
+import iisi.Db.JDBC_edit;
 
 
 

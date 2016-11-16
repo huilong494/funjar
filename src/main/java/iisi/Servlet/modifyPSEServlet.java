@@ -1,7 +1,8 @@
-package Servlet;
+package iisi.Servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -11,13 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import Bean.view_sub;
-import Db.JDBC_edit;
-
-import com.sun.corba.se.pept.transport.Connection;
+import iisi.Bean.view_sub;
+import iisi.Db.JDBC_edit;
 
 public class modifyPSEServlet extends HttpServlet {
 

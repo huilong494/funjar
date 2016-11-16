@@ -1,10 +1,6 @@
-package Servlet;
+package iisi.Servlet;
 
 import java.io.IOException;
-import java.io.PrintWriter;
-import java.sql.Date;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.servlet.RequestDispatcher;
@@ -14,9 +10,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import Bean.hr;
-//import Db.JDBCPSEsearch;
-import Db.JDBC_hr;
+import iisi.Bean.hr;
+import iisi.Db.JDBC_hr;
 
 public class hrServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;

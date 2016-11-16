@@ -1,13 +1,8 @@
-package Db;
+package iisi.Db;
 
-import java.awt.Checkbox;
-import java.sql.*;
-import java.util.*;
-
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
-
-import Servlet.deleteServlet;
-import Bean.edit;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 
 public class deleteJDBC extends JDBCCore {
 	public int checkbox(String[] checkbox) throws Exception{

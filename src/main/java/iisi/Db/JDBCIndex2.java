@@ -1,4 +1,4 @@
-package Db;
+package iisi.Db;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -6,8 +6,7 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-import Bean.RemainHour;
-import Bean.SearchHour;
+import iisi.Bean.RemainHour;
 
 public class JDBCIndex2 extends JDBCCore {
 
