@@ -29,9 +29,8 @@ public class JDBCCheckPSE extends JDBCCore {
 		try {
 
 			Connection conn;
-			conn = makeConnection();
-			PreparedStatement pstmt = conn
-					.prepareStatement("select b.pid,a.eid,a.name,b.applytime,c.sname from employee a,pse_main b,pse_status c where a.eid=b.eid and b.status=c.status and b.status=3 and a.dep_id=? order by b.pid desc");
+			conn = (Connection) makeConnection();
+			PreparedStatement pstmt = (PreparedStatement) conn.prepareStatement("select b.pid,a.eid,a.name,b.applytime,c.sname from employee a,pse_main b,pse_status c where a.eid=b.eid and b.status=c.status and b.status=3 and a.dep_id=? order by b.pid desc");
 			pstmt.setInt(1, dd);
 
 			ResultSet rs = pstmt.executeQuery();
@@ -64,9 +63,8 @@ public class JDBCCheckPSE extends JDBCCore {
 		try {
 
 			Connection conn;
-			conn = makeConnection();
-			PreparedStatement pstmt = conn
-					.prepareStatement("select b.pcid,c.kname,b.pctotal,to_char(b.startdatetime,'yyyy-mm-dd'),to_char(b.startdatetime,'HH24:mi'),to_char(b.enddatetime,'yyyy-mm-dd'),to_char(b.enddatetime,'HH24:mi'),b.ps from pse_main a,pse_sub b ,pse_kind c where a.pid=b.pid and b.kid=c.kid and a.pid=?");
+			conn = (Connection) makeConnection();
+			PreparedStatement pstmt = (PreparedStatement) conn.prepareStatement("select b.pcid,c.kname,b.pctotal,to_char(b.startdatetime,'yyyy-mm-dd'),to_char(b.startdatetime,'HH24:mi'),to_char(b.enddatetime,'yyyy-mm-dd'),to_char(b.enddatetime,'HH24:mi'),b.ps from pse_main a,pse_sub b ,pse_kind c where a.pid=b.pid and b.kid=c.kid and a.pid=?");
 			pstmt.setInt(1, pid);
 			ResultSet rs = pstmt.executeQuery();
 			while (rs.next()) {
@@ -104,11 +102,10 @@ public class JDBCCheckPSE extends JDBCCore {
 		try {
 
 			Connection conn;
-			conn = makeConnection();
+			conn = (Connection) makeConnection();
         
 		
-			PreparedStatement st = conn
-					.prepareStatement("Update PSE_MAIN set STATUS=?,REPLY=? where PID=?");
+			PreparedStatement st = (PreparedStatement) conn.prepareStatement("Update PSE_MAIN set STATUS=?,REPLY=? where PID=?");
 			st.setInt(1, status);
 			st.setString(2, comment);
 			st.setInt(3, pid);
@@ -200,12 +197,11 @@ public class JDBCCheckPSE extends JDBCCore {
 		try {
 
 			Connection conn;
-			conn = makeConnection();
+			conn = (Connection) makeConnection();
 
 			String npwd = newPwd.toString();
 
-			PreparedStatement st = conn
-					.prepareStatement("Update Employee set PWD=? where Eid=?");
+			PreparedStatement st = (PreparedStatement) conn.prepareStatement("Update Employee set PWD=? where Eid=?");
 			st.setString(1, npwd);
 			st.setString(2, Eid);
 
@@ -229,9 +225,8 @@ public class JDBCCheckPSE extends JDBCCore {
 		String Eid="";
 		try{
 			Connection conn;
-			conn = makeConnection();
-			PreparedStatement pstmt = conn
-					.prepareStatement("Select EID from PSE_MAIN where PID=?");
+			conn = (Connection) makeConnection();
+			PreparedStatement pstmt = (PreparedStatement) conn.prepareStatement("Select EID from PSE_MAIN where PID=?");
 			pstmt.setInt(1, pid);
 			ResultSet rs = pstmt.executeQuery();
 			if (rs.next()) {
@@ -301,12 +296,11 @@ public class JDBCCheckPSE extends JDBCCore {
 		try {
 
 			Connection conn;
-			conn = makeConnection();
+			conn = (Connection) makeConnection();
 
 			String npwd = newPwd.toString();
 
-			PreparedStatement st = conn
-					.prepareStatement("Update Employee set PWD=? where Eid=?");
+			PreparedStatement st = (PreparedStatement) conn.prepareStatement("Update Employee set PWD=? where Eid=?");
 			st.setString(1, npwd);
 			st.setString(2, Eid);
 
