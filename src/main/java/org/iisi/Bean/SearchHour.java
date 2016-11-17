@@ -1,4 +1,5 @@
 package org.iisi.Bean;
+import java.io.Serializable;
 public class SearchHour {
 
 	private String Eid;

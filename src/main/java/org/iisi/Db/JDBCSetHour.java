@@ -5,6 +5,7 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.iisi.Bean.SearchHour;
 import org.iisi.Bean.UseLeft;
 
 public class JDBCSetHour extends JDBCCore {

@@ -199,9 +199,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import org.iisi.servlet.Bean.Hours;
-import org.iisi.servlet.Bean.SearchPSE;
-import org.iisi.servlet.Db.JDBCPSEsearch;
+import org.iisi.Bean.Hours;
+import org.iisi.Bean.SearchPSE;
+import org.iisi.Db.JDBCPSEsearch;
 
 /**
  * Servlet implementation class exportServlet

@@ -25,7 +25,7 @@ public class editJDBC extends JDBCCore {
 				String rstime = rs.getString(2);
 				String rsreply = rs.getString(3);
 
-				Bean.edit edl = new Bean.edit(rspid, rstime, rsreply);
+				edit edl = new edit(rspid, rstime, rsreply);
 				showed.add(i, edl);//ArrayList<edit> showed = new ArrayList<edit>();
 				i++;
 			}
